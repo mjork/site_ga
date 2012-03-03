@@ -1,0 +1,1 @@
+<h1>Press <strong>resources</strong></h1>

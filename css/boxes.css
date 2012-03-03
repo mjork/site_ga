@@ -1,0 +1,322 @@
+#content {
+	background:#f2f6f7 url(../images/layout/content_bg.jpg) repeat-x bottom;
+	min-height:485px;
+}
+#content .boite {
+	margin-top:30px;
+	padding-right:10px;
+}
+#content .boite:hover {
+}
+#content .boite h1 {
+	font-size:20px;
+	font-variant:small-caps;
+	color:#588191;
+	border-bottom:thin solid #588191;
+	background:url(../images/layout/boite_thick_border.jpg) no-repeat left bottom;
+	padding-bottom:5px;
+}
+#content .boite p {
+}
+#content .boite p em {
+	font-style:normal;
+ //color:#588191;
+	font-weight:700;
+}
+#content ul {
+	list-style:none;
+	padding-left:0px;
+	padding-right:50px;
+}
+#content ul a {
+	color:#588191;
+	text-decoration:none;
+}
+#content a:hover {
+ // background-color:#cdf027;
+// color:#333;
+	background-color:#0071B6;
+	color:#fff;
+}
+#content .boite img {
+	float:right;
+	margin-left:10px;
+	box-shadow:0 0 10px 0 #6F6F6F;
+	height:55px;
+}
+#content .news h2 a {
+	font-size:20px;
+	line-height:21px;
+	font-weight:400;
+	text-decoration:none;
+	color:#111;
+}
+#content .news img {
+	margin-left:20px;
+}
+#content p.date {
+	color:#666;
+}
+/* ***************************** *
+ *     specific to largebox      *
+ * ***************************** */
+.largebox {
+}
+.largebox h1 {
+	font-size:20px;
+	margin-top:10px;
+	font-weight:100;
+	color: #333;
+}
+.largebox h1 .impact {
+	vertical-align:-1px;
+	font-size:30px;
+}
+.largebox h1 img {
+	height:40px;
+	position:relative;
+	top:9px;
+}
+.largebox h1 strong {
+	font-family:impact;
+	font-weight:normal;
+}
+.largebox img.vignette {
+	height:50px;
+}
+.largebox img.universities {
+	width:100%;
+	margin:10px;
+}
+.largebox .photos img {
+	float:right;
+	margin-left:10px;
+	box-shadow:0 0 10px 0 #6F6F6F;
+	height:55px;
+}
+/* *************************** *
+ * specific to they_trusted_us *
+ * *************************** */
+#they_trusted_us a {
+	display:block;
+	height:60px;
+}
+#they_trusted_us a:hover {
+	background:none;
+}
+a.video img.thumb {
+	width:100%;
+}
+#they_trusted_us img.logo {
+	max-height:60px;
+	max-width:80%;
+}
+#they_trusted_us div.logo {
+	vertical-align:bottom;
+}
+#they_trusted_us .row {
+	padding:5px;
+}
+#they_trusted_us hr.space {
+	margin:0;
+}
+#they_trusted_us .row:hover {
+	background-color:#fff;
+	-webkit-box-shadow:0 0 .6em #aaa;
+	-moz-box-shadow:0 0 .6em #aaa;
+	-o-box-shadow:0 0 .6em #aaa;
+}
+/* ************************* *
+ * specific to about_us.php  *
+ * ************************* */
+
+#best_in_france .figures {
+}
+#best_in_france .figure {
+	padding:0;
+	margin:0;
+	line-height:15px;
+}
+#best_in_france .figure .number {
+	padding-left:20px;
+	text-align:right;
+	float:left;
+	font-family:Impact;
+	font-size:26px;
+	margin:0;
+}
+#best_in_france .figure .counted {
+	float:left;
+	padding-left:10px;
+	font-size:19px;
+	padding-top:4px;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#best_in_france .figure .counted .comment {
+	font-size:12px;
+	color: #666;
+}
+#best_in_france .figure.separation {
+	border-left:thin solid #aaa;
+}
+/* ************************* *
+ * specific to general_assembly.php  *
+ * ************************* */
+#best_in_france .taller {
+	height:500px;
+}
+#best_in_france .figure p {
+	clear:both;
+	padding:20px 20px;
+}
+#best_in_france .figure ul {
+	clear:both;
+	padding:20px 20px;
+	
+}
+#best_in_france .figure li {
+	margin-bottom:7px;
+	
+}
+/* ************************* *
+ * specific to companies.php  *
+ * ************************* */
+
+
+#who_is_involved .logos img {
+	height:50px;
+	float:right;
+	margin-left:18px;
+	margin-top:10px;
+}
+.teaser {
+	color:#888;
+	margin-top:20px;
+	border-radius:5px;
+	box-shadow:0 0 6px #ccc;
+	height:200px;
+	overflow:hidden;
+}
+.teaser h2 {
+	font-size:16px;
+	width:75%;
+	line-height:15px;
+	color:#ccc;
+}
+.teaser h2 .impact {
+	font-size:25px;
+	color:#eee;
+}
+.teaser h2 em {
+	color:#cdf027;
+	font-style:normal;
+}
+.teaser .description {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 1%, rgba(0,0,0,0.9) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.9)), color-stop(1%, rgba(0,0,0,0.9)), color-stop(100%, rgba(0,0,0,0.9))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 1%, rgba(0,0,0,0.9) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 1%, rgba(0,0,0,0.9) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 1%, rgba(0,0,0,0.9) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 1%, rgba(0,0,0,0.9) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6000000', endColorstr='#e6000000', GradientType=0 ); /* IE6-9 */
+	height:95%;
+	width:43%;
+	padding-left:25px;
+	padding-right:10px;
+	padding-top:20px;
+}
+.teaser .description p {
+	line-height:16px;
+}
+#hire {
+	background:url(../images/layout/comp1.jpg);
+}
+#promote {
+	background:url(../images/layout/comp2.jpg);
+}
+#exchange {
+	background:url(../images/layout/comp1.jpg);
+}
+/* ************************* *
+ * specific to student.php   *
+ * ************************* */
+
+.application_process {
+	font-size:15px;
+	line-height:18px;
+	padding-top:30px;
+	padding-bottom:50px;
+	margin:0;
+}
+.application_process .impact {
+	font-size:180%;
+	line-height:28px;
+}
+.application_process .icon {
+ //text-align:center;
+}
+.application_process p {
+	padding-right:30px;
+}
+.application_process.active {
+	background:url(../images/layout/blur.png) no-repeat;
+	background-position:-40px 0;
+}
+/* ************************* *
+ * specific to press.php     *
+ * ************************* */
+ 
+#press_clippings {
+	font-size:12px;
+}
+#press_clippings h2 {
+	margin:0;
+	padding:0;
+	margin-top:20px;
+}
+#press_clippings h2 a {
+	font-weight:600;
+	font-size:16px;
+	text-decoration:none;
+	color:#588191;
+}
+#press_clippings h2 a:hover {
+	background-color:transparent !important;
+	color:#09F !important;
+}
+#press_clippings p {
+	margin:0; padding:0;
+	padding-right:17px;
+}
+#press_clippings a.readmore.press {
+	background-color:transparent;
+	color:#0071B6;
+	font-size:12px;
+	line-height:13px;
+	white-space:nowrap;
+	font-weight:600;
+}
+#press_clippings a.readmore.press:hover {
+	background-color:#0071B6;
+	color:#fff;
+}
+
+#press_clippings p.details {
+	font-size:12px;
+	color:#588191;
+	font-weight:100;
+	margin:0; padding:0;
+	margin-bottom:10px;
+}
+#press_clippings a.video img.news {
+	width:90%;
+	border:2px solid white;
+	box-shadow:#aaa 0 0 1em;	
+}
+#press_clippings a.video:hover img.news {
+	width:90%;
+	border:2px solid white;
+	box-shadow:#0071B6 0 0 2em;	
+}
+

@@ -1,0 +1,12 @@
+#header {
+	height:125px;
+	background:url(../images/layout/header_bg.jpg) no-repeat right top;
+	border:none;
+	border-bottom:thin solid #CCD9DF;
+}
+#logo {
+	float:left;
+}
+#logo img {
+	height:125px;
+}

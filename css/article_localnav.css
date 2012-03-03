@@ -1,0 +1,42 @@
+#localnav ul {
+	list-style:none;
+	border-bottom:thin solid #ccc;
+	padding-left:0;	
+}
+
+#localnav li {
+	display:inline-block;
+	margin:0 20px;
+	padding:8px 0;
+}
+#localnav li.main {
+	margin-left:0;	
+}
+#localnav a {
+	font-size:16px;
+	font-variant:small-caps;
+	text-decoration:none;
+	color:#999;
+}
+#localnav li.active{
+	//border-bottom: 5px solid #333;
+	background:url(../images/layout/localnav_active.jpg) repeat-x bottom;
+
+}
+
+#localnav li.active a {
+
+	font-weight:700;
+	color:#666;
+}
+
+#localnav li.main a {
+	color:#666;
+	font-weight:700;
+}
+#localnav li:hover a {
+	color:#cdf027;
+}
+#localnav li.active:hover {
+	background:url(../images/layout/localnav_active_hover.jpg) repeat-x bottom;
+}

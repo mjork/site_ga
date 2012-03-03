@@ -1,0 +1,1 @@
+<h1><strong>Our</strong> supporters</h1>

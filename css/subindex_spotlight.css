@@ -1,0 +1,148 @@
+#spotlight {
+	background:url(../images/layout/slider_bg.jpg) repeat-x;
+	height:276px;
+	color:#FFF;
+}
+#spotlight .map {
+	background:url(../images/layout/slide_map.png) no-repeat right;
+}
+#spotlight .globe {
+	background:url(../images/layout/slide_globe.png) no-repeat right bottom;
+}
+#spotlight .companies {
+	background:url(../images/layout/companies.png) no-repeat right bottom;
+	height:100%;
+}
+#spotlight .students {
+	background:url(../images/images/students_13.png) no-repeat right bottom;
+	height:100%;
+}
+#spotlight .universities {
+	background:url(../images/images/universities_13.png) no-repeat right bottom;
+	height:100%;
+}
+#spotlight h1 {
+	padding-top:30px;
+	margin:0px;
+	font-size:85px;
+	color:#eee;
+	font-weight:300;
+	text-shadow:0 0 .3em #000;
+ 
+}
+
+#spotlight div.youare {
+			position:absolute;
+			top:157px;
+			font-size:20px;
+			//font-weight:bold;
+			color:#fff;
+			font-variant:small-caps;
+}
+#spotlight div.youare.student {
+			margin-left:-30px;
+}
+#spotlight div.youare.university {
+			margin-left:6px;	
+}
+#spotlight div.youare.company {
+			margin-left:6px;	
+}
+#spotlight div.youare.press {
+			margin-left:7px;	
+}
+#spotlight h1.youare {
+
+		font-weight:600;
+		color:#588191;
+			
+
+}
+
+#spotlight h1 strong {
+	color:#588191;
+}
+#spotlight div.block {
+	background:url(../images/layout/ruler_sl.png) no-repeat;
+	color: #dde1e2;
+	padding-top:18px;
+
+}
+#spotlight div.bottom_button {
+
+	text-align:center;
+	padding-top:40px;
+}
+
+
+#spotlight h2 {
+	color:#fff;// #E1F28F;
+	font-size:16px;
+	line-height:14px;
+	padding-left:25px;
+	padding-right:10px;
+	font-weight:500;
+}
+#spotlight h2 .impact {
+	font-size:1.7em;
+	color:#fff;// #cdf027;
+}
+#spotlight p {
+	margin:0;
+	padding:0;
+	padding-left:25px;
+	padding-right:10px;
+	line-height:14px;
+	color:#ccc;//#9AAD3E;
+
+}
+#spotlight p em {
+	font-style:normal;
+	color:cdf027;
+}
+#spotlight ul.buttons {
+	color: #dde1e2;
+	padding-left:25px;
+	padding-right:10px;
+	font-size:14px;
+	list-style:none;
+}
+#spotlight ul.buttons li {
+	display:block;
+	height:35px;
+}
+#spotlight .figures {
+	position:relative;
+	top:-30px;
+}
+#spotlight .figures.press {
+	top:0px;
+}
+#spotlight .figure {
+	clear:both;
+	padding:0;
+	margin:0;
+	line-height:15px;
+}
+#spotlight .figure .number {
+	width:160px;
+	text-align:right;
+	float:left;
+	font-family:Impact;
+	font-size:26px;
+	margin:0;
+}
+#spotlight .figure .counted {
+	float:left;
+	padding-left:10px;
+	font-size:18px;
+	padding-top:4px;
+	padding-bottom:0;
+	margin-bottom:0;
+	font-weight:300;
+}
+#spotlight .figure .counted .comment {
+	font-size:12px;
+	//font-style:italic;
+	color: #588191;
+}

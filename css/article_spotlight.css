@@ -1,0 +1,54 @@
+#spotlight {
+	background:url(../images/layout/slider_bg.jpg) repeat-x;
+	color:#FFF;
+}
+#spotlight .container {
+	background:url(../images/layout/slide_map.png) no-repeat right;
+}
+#spotlight h1 {
+	padding-top:25px;
+	padding-bottom:19px;
+	margin:0px;
+	font-size:85px;
+	color:#fff;
+	font-weight:100;
+	text-shadow:0 0 .2em #000;
+}
+#spotlight h1 strong {
+	color:#588191;
+}
+#spotlight h2 {
+	color:#fff;
+	font-style:italic;
+	font-size:14px;
+	color:#eee;
+	font-weight:normal;
+	padding-left:10px;
+	text-shadow:0 0 .2em #000;
+}
+#spotlight h2 strong {
+	font-style:normal;
+}
+#spotlight p {
+	background:url(../images/layout/ruler_sl.png) no-repeat;
+	color: #dde1e2;
+	padding-top:18px;
+	padding-left:25px;
+	padding-right:10px;
+	font-size:14px;
+}
+#spotlight p em {
+	color:#588191;
+	font-style:normal;
+}
+#spotlight ul.buttons {
+	color: #dde1e2;
+	padding-left:25px;
+	padding-right:10px;
+	font-size:14px;
+	list-style:none;
+}
+#spotlight ul.buttons li {
+	display:block;
+	height:35px;
+}

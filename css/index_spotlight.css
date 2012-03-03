@@ -1,0 +1,106 @@
+#spotlight {
+	background:url(../images/layout/slider_bg.jpg) repeat-x;
+	height:276px;
+}
+#buttons {
+	padding-left:0;
+	padding-top:25px;
+}
+#buttons ul {
+	list-style:none;
+	margin-left:0;
+}
+#buttons ul li {
+	width:230px;
+	height:53px;
+	background:url(../images/layout/button_border_bottom.png) no-repeat bottom right;
+}
+#buttons ul li:hover {
+	background-color:#0B0B0B;
+	border-radius:20px;
+	border-bottom-left-radius:0px;
+	border-top-right-radius:0px;
+	box-shadow:inset 0px 0px 10px 0px #000;
+}
+#buttons a {
+	min-height:53px;
+	width:70%;
+	display:block;
+	margin-left:5px;
+	padding-left:70px;
+	padding-top:0px;
+	color:#EEE;
+	text-decoration:none;
+	font-size:18px;
+}
+#companies a {
+	background:url(../images/layout/button_blue.png) no-repeat left center;
+}
+#universities a {
+	background:url(../images/layout/button_green.png) no-repeat left;
+}
+#students a {
+	background:url(../images/layout/button_orange.png) no-repeat left;
+}
+#medias a {
+	background:url(../images/layout/button_grey.png) no-repeat left;
+}
+#buttons a .button {
+	padding-top:10px;
+}
+#buttons li:hover a {
+	text-shadow:0 0 2em #FFF;
+}
+
+.slide .description {
+	margin-top:20px;
+}
+.slide .description h1 {
+	font-weight:100;
+	font-size:45px;
+	padding-left:50px;
+	padding-bottom:20px;
+	color:#FFF;
+}
+.slide .description h1 em {
+	color:#5f8c9e;
+	font-style:normal;
+	margin-left:-45px;
+}
+.slide .description p {
+	color:#5f8c9e;
+}
+.slide .description p strong {
+	color:#ccc;
+	font-weight:normal;
+}
+.slide .illustration {
+	padding-top:50px;
+}
+.slide .illustration img {
+	box-shadow:0px 0px 15px 3px #000;
+}
+/*
+#slider ul.cursor {
+	list-style:none;
+	padding-top:20px;
+}
+#slider ul.cursor li {
+	width:10px;
+	height:10px;
+	display:inline-block;
+	margin-left:5px;
+	background-image:url(../images/layout/slider_cursor.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#slider ul.cursor li.active {
+	background-image:url(../images/layout/slider_cursor.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+#slider ul.cursor li:hover {
+	opacity:.7;
+}
+
+*/
